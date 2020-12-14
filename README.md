@@ -31,7 +31,7 @@ Return an Index of formatted strings specified by date_format, which supports th
 sales['month'] = sales.date.apply(lambda x: datetime.strptime(x,'%d.%m.%Y').strftime('%m'))  --------------APPLYING DATETIME FORMAT
 sales.head(2) -----------------------------------to display 2 changed column in sales
 
-
+![](images/final.jpg)
 
 
 # CREATING TIME SERIES GRAPH OF 2013,2014,2015
