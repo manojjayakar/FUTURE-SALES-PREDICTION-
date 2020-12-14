@@ -32,6 +32,9 @@ sales['month'] = sales.date.apply(lambda x: datetime.strptime(x,'%d.%m.%Y').strf
 sales.head(2) -----------------------------------to display 2 changed column in sales
 
 ![](images/__results___2_1.png)
+![](images/__results___3_1.png)
+![](images/__results___5_0.png)
+
 
 
 # CREATING TIME SERIES GRAPH OF 2013,2014,2015
